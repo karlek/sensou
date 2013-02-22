@@ -1,7 +1,6 @@
 sensou
 ======
-Sensou/Sensō(戦争) means war in japanese. This program extracts information from
-and writes warcraft 3 files.
+Sensou/Sensō(戦争) means war in japanese. Sensou parses and writes warcraft 3 files.
 
 Library syntax - Parse
 -------------

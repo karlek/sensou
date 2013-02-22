@@ -2,6 +2,11 @@ sensou
 ======
 Sensou/Sensō(戦争) means war in japanese. Sensou parses and writes warcraft 3 files.
 
+Sensou gives further access to modification of warcraft 3 maps since the world editor doesn't limit some values read from .w3u files. One such example is the uhpm (unit health points) can exceed the 50k limit and instead hit the memory limit that's 16,777,215!
+
+A list of hackable fields will follow:
+uhpm
+
 Library syntax - Parse
 -------------
 

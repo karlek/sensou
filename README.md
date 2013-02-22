@@ -13,11 +13,20 @@ Library syntax - Write
 
 	wu := w3u.New()
 
-	u := unit.NewUnit("hpea", "h000")
-	u.AddField("uhpm", 0xFFFFFF)
+	u, err := unit.NewUnit("hpea", "h000")
+	if err != nil {
+		// handle error
+	}
+	err = u.AddField("uhpm", 0xFFFFFF)
+	if err != nil {
+		// handle err
+	}
 	wu.AddUnit(u)
 
-	wu.Write("/tmp/unit-output.w3u")
+	err = wu.Write("/tmp/unit-output.w3u")
+	if err != nil {
+		// handle err
+	}
 
 Library syntax - Print
 --------------
